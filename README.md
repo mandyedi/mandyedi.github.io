@@ -1,2 +1,0 @@
-mandyedi.github.io
-==================
