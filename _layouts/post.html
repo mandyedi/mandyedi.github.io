@@ -4,7 +4,7 @@ layout: default
 <h2>{{ page.title }}</h2>
 <span>
     {% for tag in page.tags %}
-    <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}/#{{ tag }}"><span></span>#&nbsp;{{ tag }}</a>
+    <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}#{{ tag }}"><span></span>#&nbsp;{{ tag }}</a>
     <!-- <a href="{{ '/tags' }}"><span></span>#&nbsp;{{ tag }}</a> -->
     {% endfor %}
 </span>
