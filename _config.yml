@@ -4,3 +4,4 @@ highlighter: rouge
 baseurl: ""
 plugins:
   - jekyll-seo-tag
+disqus_username: mandyedi-github
