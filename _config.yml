@@ -1,5 +1,6 @@
-name: Your New Jekyll Site
+name: m a n d y e d i
 markdown: kramdown
 highlighter: rouge
+baseurl: ""
 plugins:
   - jekyll-seo-tag
