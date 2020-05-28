@@ -2,6 +2,7 @@ name: m a n d y e d i
 markdown: kramdown
 highlighter: rouge
 baseurl: ""
+future: true
 plugins:
   - jekyll-seo-tag
 disqus_username: mandyedi-github
