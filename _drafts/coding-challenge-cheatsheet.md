@@ -1,30 +1,28 @@
-Python
+# Coding Challenge Sheatsheet
 
+## Python
+
+```python
 for i in range(int(input())):
 	line = input()
 
 line = lambda : sys.stdin.readline().strip()
 n = int(line())
+```
 
-C++
+## C++
 
-implement python lambda solution
+- [ ] implement python lambda solution. Wtf? Add more comment next time!
+- [ ] ignore cin
+- [ ] use getline
+- [ ] templated tokenizer
 
-ignore cin
+https://www.geeksforgeeks.org/fast-io-for-competitive-programming/  
+https://codeforces.com/blog/entry/8080?locale=ru  
+https://github.com/Kattis/kattio/blob/305f1b012d8d6f3a15ba51fcfcffec09529c06af/fast_io.cpp  
+https://github.com/Maycon708/Maratona/blob/68afecc28f9a46a50ab33f7dbeb52218ada778d0/URI/2042%20-%20Fof%C3%A3o%20da%20P%C3%A9rsia.cpp  
 
-use getline
-
-templated tokenizer
-
-https://www.geeksforgeeks.org/fast-io-for-competitive-programming/
-https://codeforces.com/blog/entry/8080?locale=ru
-https://github.com/Kattis/kattio/blob/305f1b012d8d6f3a15ba51fcfcffec09529c06af/fast_io.cpp
-https://github.com/Maycon708/Maratona/blob/68afecc28f9a46a50ab33f7dbeb52218ada778d0/URI/2042%20-%20Fof%C3%A3o%20da%20P%C3%A9rsia.cpp
-
-//
-// codes
-//
-
+```cpp
 ios::sync_with_stdio(false);
 cin.tie(NULL);
 cout.tie(NULL);
@@ -111,3 +109,4 @@ int CountSubstring( const std::string &str, const std::string &substr )
 
     return count;
 }
+```
